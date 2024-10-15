@@ -1,0 +1,60 @@
+@use 'varables'as vs;
+.FooterContainer {
+  min-height: 474px;
+  background-color: vs.$bg-color-blue;
+}
+.Footer {
+  min-height: 474px;
+  background-color: vs.$bg-color-blue;
+
+}
+
+.itemsOfFooter {
+  padding-top: 200px;
+  max-width: 90%;
+  min-height: 182px;
+}
+
+.logoFooter {
+  height: 169px;
+  width: 240px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #716950;
+
+}
+
+.Footer-heding {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.FooterContainer .btn {
+  width: 180px;
+  height: 55px;
+
+}
+
+.Endpart .dropdown-toggle::after {
+  content: none !important;
+}
+
+.iconEffects {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  color: rgb(220, 220, 220);
+}
+
+.FonterLine {
+  width: 95%;
+}
+
+.iconEffects:hover {
+  color: goldenrod;
+}

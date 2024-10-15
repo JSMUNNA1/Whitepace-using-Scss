@@ -1,0 +1,11 @@
+@use 'varables' as vs;
+.workWithFav {
+  min-height: 751px;
+  background-color: vs.$bg-color-blue;
+  background-image: url(Images/MainFirst/Element.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.workwith {
+  min-height: 471px;
+}

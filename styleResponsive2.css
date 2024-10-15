@@ -1,0 +1,180 @@
+@media (min-width: 977px) and (max-width: 1400px) {
+  .buttonsOfNav {
+    display: none;
+  }
+
+  .ResponsiveSliderogNav {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .dropdownContainer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ResponsiveSliderogNav {
+    display: block;
+  }
+
+  .dropDownitems {
+    display: none;
+  }
+
+  .buttonsOfNav {
+    display: none;
+  }
+
+  .mainFirstContainer {
+    min-height: 1000px;
+  }
+
+  .RightMain img {
+    max-width: 90%;
+  }
+
+  .projectManagement {
+    min-height: 2300px;
+  }
+
+  .projectMangerInner {
+    min-height: 1900px;
+  }
+
+  .rightPartManager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightIMGProjectManImg img {
+    max-width: 85%;
+  }
+
+  .workTogetherLeftImg img {
+    max-width: 90%;
+
+  }
+
+  .workTogetherLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ExtentsionContainer {
+    min-height: 1100px;
+  }
+
+  .rightExtension {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightExtension img {
+    max-width: 90%;
+  }
+
+  .customiseAsNeed {
+    min-height: 1300px;
+  }
+
+  .leftcustomise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftcustomise img {
+    max-width: 90%;
+  }
+
+  /* Choose  plain */
+  .cardMainOfPlain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardMainOfPlain .card1 {
+    display: none;
+  }
+
+  .cardMainOfPlain .card3 {
+    display: none;
+  }
+
+  .cardMainOfPlain .card2 {
+    max-width: 85%;
+  }
+
+  .data100Container {
+    min-height: 900px;
+  }
+
+  .ourSpourcersContainer {
+    min-height: 1100px;
+  }
+
+  .ourSponserContainerComanys {
+    min-height: 800px;
+  }
+
+  .workWithFav {
+    min-height: 1200px;
+  }
+
+  .workWithFavLeftImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .workWithFavLeftImg img {
+    max-width: 90%;
+  }
+
+  .OurclientsSays .cardno3 {
+    display: none;
+  }
+
+  .OurclientsSays .cardno1 {
+    display: none;
+  }
+
+  .CardContainerOfClient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CardContainerOfClient .cardno2 {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .ourSpourcersContainer h1 {
+    font-size: 36px;
+  }
+
+  .ourclients h1 {
+    font-size: 36px;
+  }
+
+  .tryWhitepace h1 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .choosePlanContainer h1 {
+    font-size: 36px;
+  }
+}

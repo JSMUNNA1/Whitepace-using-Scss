@@ -1,0 +1,628 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+
+}
+
+/* Responsive Experiment Start */
+.ResponsiveSliderogNav {
+  display: none;
+}
+
+.dropdownContainer {
+  display: flex;
+}
+
+.threeMenu {
+
+  background-color: transparent !important;
+  color: white !important;
+
+}
+
+.navbar-toggler-icon {
+
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:active {
+  border-color: none !important;
+}
+
+.circleCancell {
+
+  color: white;
+  background-color: #043873;
+}
+
+.circleCancell:hover {
+  color: goldenrod;
+}
+
+.accordion-body {
+  margin: 0px;
+  background-color: #043873;
+
+
+}
+
+.listItemsoflinks {
+  margin: 0px;
+  color: white;
+}
+
+.listItemsoflinks a {
+
+
+  color: white;
+  width: 100%;
+  height: 35px;
+
+
+}
+
+.listItemsoflinks a:hover {
+  background-color: #cbe9eb;
+  border: 1px solid orange;
+}
+
+.buttonsofResponsive {
+  display: flex;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  background-color: hsl(212, 93%, 23%);
+}
+
+/* Responsive Experiment End */
+
+.navContain {
+  min-height: 92px;
+  background: #043873;
+  color: white;
+
+}
+
+.dropDownitems {
+  display: flex;
+}
+
+.buttonsOfNav {
+  display: flex;
+}
+
+.btn {
+
+
+  color: white;
+}
+
+.LoginBtn {
+  color: black;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  border: none !important;
+  color: gold !important;
+  box-shadow: none !important;
+}
+
+.LoginBtn {
+  width: 126px;
+  margin-right: 12px;
+  height: 60px;
+  background-color: #FFE492;
+
+
+}
+
+.navStyle {
+  height: 60px;
+}
+
+.arrrowBtn {
+  width: 227px;
+  margin-left: 12px;
+  height: 60px;
+  background-color: #4F9CF9;
+
+}
+
+/* main First */
+.mainFirstContainer {
+  background-color: #043873;
+
+  min-height: 656.39px;
+  background-image: url(./Images/MainFirst/Element.png);
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.mainfirst {}
+
+.leftMainFirst {
+  min-height: 370px;
+}
+
+.RightMain img {
+  height: 361px;
+}
+
+.arrrowBtnForMains {
+  width: 227px;
+  height: 60px;
+  background-color: #4F9CF9;
+}
+
+/* Project Management */
+.projectManagement {
+  min-height: 1370.76px;
+  color: black;
+  background-image: url(Images/ProjectManagemntAndWorkTogether/Group.png);
+  background-repeat: no-repeat;
+}
+
+.ProjectManagerReal {
+  min-height: 448px;
+}
+
+.leftPartManager {
+  min-height: 411px;
+}
+
+.rightIMGProjectMan {}
+
+.workTogether {
+  min-height: 542.5px;
+}
+
+.workTogetherLeft {
+
+  min-height: 324px;
+}
+
+/* ExtentsionContainer */
+.ExtentsionContainer {
+  min-height: 759px;
+  background-color: #043873;
+
+}
+
+.Extentsion {
+  min-height: 479px;
+}
+
+.leftExtension {
+  min-height: 294px;
+}
+
+
+/* customiseAsNeed */
+.customiseAsNeed {
+  min-height: 812px;
+  color: black;
+}
+
+.leftcustomise {
+  min-height: 532px;
+
+}
+
+.rightcustomise {
+  min-height: 411px;
+}
+
+/* choosePlanContainer */
+.choosePlanContainer {
+  min-height: 1272px;
+  color: black;
+}
+
+.choosePlanContainer h1 {
+  font-size: 72px;
+}
+
+.hedingofPlain {
+  min-height: 171px;
+}
+
+.cardMainOfPlain {
+  min-height: 761px;
+}
+
+/* css Choose Card Previous */
+
+.choosePlan .card {
+  min-height: 654px;
+}
+
+.choosePlan .card:hover {
+  cursor: pointer;
+}
+
+.choosePlan .card-title h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.choosePlan .card-title h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.choosePlan .card-title p {
+  font-weight: 500;
+}
+
+.choosePlan .btn-outline-warning {
+  color: black;
+}
+
+.card {
+  border: none;
+}
+
+.cardBtn {
+  width: 166px;
+  padding-top: 15px;
+  min-height: 51px;
+}
+
+.card1 {
+  border: 1px solid orange;
+}
+
+.card2 {
+  border: 1px solid orange;
+
+}
+
+.card3 {
+  border: 1px solid orange;
+}
+
+/* Effects of card System */
+.choosePlan .card2 {
+  color: black;
+  background-color: white;
+
+}
+
+.choosePlan .card2:hover h3 {
+  color: #FFE492;
+
+}
+
+.choosePlan .card2:hover {
+  color: white;
+  background-color: #043873;
+  transform: scale(1.1);
+}
+
+.card1:hover {
+  color: white;
+  background-color: #043873;
+  transform: scale(1.1);
+}
+
+.card1:hover h3 {
+  color: #FFE492;
+}
+
+.card1:hover .btn-outline-warning {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+
+.card3:hover .btn-outline-warning {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+
+.card2:hover .btn-outline-warning {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+
+.card1:hover+.card2 {
+  color: black;
+  background-color: white;
+  transform: scale(1);
+}
+
+.card1:hover+.card2 .btn-primary {
+  color: black;
+  border: 1px solid #FFE492;
+  background-color: white;
+}
+
+.card1:hover+.card2 h3 {
+  color: black;
+
+}
+
+.card3:hover {
+  color: white;
+  background-color: #043873;
+  transform: scale(1.1);
+}
+
+.card3:hover h3 {
+  color: #FFE492;
+}
+
+.plainCrdContainer:has(.card3:hover) .card2 {
+  color: black;
+  background-color: white;
+  transform: scaleY(1);
+}
+
+.plainCrdContainer:has(.card3:hover) .card2 h3 {
+
+  color: black;
+
+}
+
+.plainCrdContainer:has(.card3:hover) .card2 .btn-primary {
+
+  color: black;
+  border: 1px solid #FFE492;
+  background-color: white;
+
+}
+
+/* Work Everywhere */
+.workEvery {
+  min-height: 574px;
+  background-color: #043873;
+
+}
+
+/* data100Container */
+.data100Container {
+  height: 661px;
+  color: black;
+}
+
+.data100 {
+  min-height: 382px;
+}
+
+.left100 {
+  min-height: 382px;
+}
+
+/* ourSpourcersContainer */
+.ourSpourcersContainer {
+  min-height: 538px;
+  color: black;
+}
+
+.ourSpourcersContainer h1 {
+  font-size: 72px;
+}
+
+/* workWithFav Appps */
+.workWithFav {
+  min-height: 751px;
+  background-color: #043873;
+  background-image: url(Images/MainFirst/Element.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.workwith {
+  min-height: 471px;
+
+}
+
+/* ourclients */
+.ourclients {
+  min-height: 922.46px;
+  color: black;
+}
+
+.ourclients h1 {
+  font-size: 70px;
+}
+
+/* CLient card */
+/* Cilent icon */
+.ourclients svg {
+  width: 86px;
+  height: 61px;
+  color: blue;
+
+
+}
+
+.ourclients .card:hover {
+  box-shadow: 15px 10px 50px 0px #0000001A;
+  background-color: rgb(227, 227, 227, 0.1);
+
+
+
+}
+
+.cards {
+  background-color: #4F9CF9;
+  border-radius: 3%;
+}
+
+.cards .hrline {
+  width: 95%;
+  margin: auto;
+  color: white;
+}
+
+.ourclients .card h3 {
+  color: blue;
+}
+
+.ourclients .card:hover h3 {
+  color: black;
+}
+
+/* Slidebar */
+.containerSlidbar {
+  min-height: 300px;
+}
+
+.SliderOurCustomer {
+
+  width: 60px;
+  height: 12px;
+}
+
+
+
+.SliderOurCustomer .circle1 {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  color: #4F9CF9;
+
+}
+
+.SliderOurCustomer .circle2 {
+  color: #043873;
+}
+
+
+/* tryContainerWhitePace */
+.tryContainerWhitePace {
+  min-height: 709px;
+  background-color: #043873;
+
+}
+
+/* try Whitepace */
+.tryWhitepace {
+  min-height: 709px;
+  background-color: #043873;
+
+}
+
+.itemsoftoday {
+  max-width: 608px;
+  min-height: 537px;
+}
+
+.tryWhitepace h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.tryWhitepace p {
+  font-weight: 400;
+}
+
+
+
+.ContainerIconTry svg {
+  color: white;
+}
+
+.ContainerIconTry svg:hover {
+  color: goldenrod;
+}
+
+.ContainerIconTry a {
+  color: #043873;
+}
+
+
+/* Footer */
+
+.FooterContainer {
+  min-height: 474px;
+  background-color: #043873;
+}
+
+
+
+.Footer {
+  min-height: 474px;
+  background-color: #043873;
+
+}
+
+.itemsOfFooter {
+  padding-top: 200px;
+  max-width: 90%;
+  min-height: 182px;
+}
+
+.logoFooter {
+  height: 169px;
+  width: 240px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #716950;
+
+}
+
+.Footer-heding {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.FooterContainer .btn {
+  width: 180px;
+  height: 55px;
+
+}
+
+.Endpart .dropdown-toggle::after {
+  content: none !important;
+}
+
+.iconEffects {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  color: rgb(220, 220, 220);
+}
+
+.FonterLine {
+  width: 95%;
+}
+
+.iconEffects:hover {
+  color: goldenrod;
+}
+
+.borderOfManagenent {
+  border-image-source: url(./Images/ProjectManagemntAndWorkTogether/Vector.png);
+  border-image-slice: 100;
+  border-image-width: 0px 0px 20px 2px;
+}
+
+.borderOfManagenentBlue {
+  border-image-source: url(./Images/BlueColorImgBorder/Vector.png);
+  border-image-slice: 100;
+  border-image-width: 0px 0px 15px 2px;
+
+}

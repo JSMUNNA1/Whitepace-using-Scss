@@ -1,0 +1,75 @@
+@use 'mixin' as mx;
+@use 'varables' as vs;
+.navbar-toggler-icon {
+
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:active {
+  border-color: none !important;
+}
+.navContain {
+  min-height: 92px;
+  @include mx.layoutsetUp(vs.$bg-color-blue)
+}
+.dropDownitems {
+  display: flex;
+}
+.buttonsOfNav {
+  display: flex;
+}
+.LoginBtn {
+  width: 126px;
+  margin-right: 12px;
+  height: 60px;
+  background-color: #FFE492;
+}
+.navStyle {
+  height: 60px;
+}
+// responsive part
+.ResponsiveSliderogNav {
+  display: none;
+}
+.circleCancell {
+  @include mx.layoutsetUp(vs.$bg-color-blue)
+}
+
+.circleCancell:hover {
+  color: goldenrod;
+}
+
+.accordion-body {
+  margin: 0px;
+  background-color: vs.$bg-color-blue;
+}
+
+.listItemsoflinks {
+  margin: 0px;
+  color: white;
+}
+
+.listItemsoflinks a {
+
+
+  color: white;
+  width: 100%;
+  height: 35px;
+
+
+}
+
+.listItemsoflinks a:hover {
+  background-color: #cbe9eb;
+  border: 1px solid orange;
+}
+
+.buttonsofResponsive {
+  display: flex;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  background-color: hsl(212, 93%, 23%);
+}

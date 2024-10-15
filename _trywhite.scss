@@ -1,0 +1,30 @@
+@use 'varables' as vs;
+@use 'mixin' as mx;
+.tryContainerWhitePace {
+  min-height: 709px;
+  background-color:vs.$bg-color-blue;
+
+}
+// /* try Whitepace */
+.tryWhitepace {
+  min-height: 709px;
+  background-color: vs.$bg-color-blue;
+
+}
+
+.itemsoftoday {
+  max-width: 608px;
+  min-height: 537px;
+}
+.tryWhitepace h1 {
+  @include mx.headingTextSize(72px,700);
+}
+.ContainerIconTry svg {
+  color: white;
+}
+.ContainerIconTry svg:hover {
+  color: goldenrod;
+}
+.ContainerIconTry a {
+  color: vs.$bg-color-blue;
+}

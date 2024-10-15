@@ -1,0 +1,12 @@
+/* ExtentsionContainer */
+@use 'varables' as vs;
+.ExtentsionContainer {
+  min-height: 759px;
+  background-color: vs.$bg-color-blue;
+}
+.Extentsion {
+  min-height: 479px;
+}
+.leftExtension {
+  min-height: 294px;
+}

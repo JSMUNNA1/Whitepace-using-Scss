@@ -1,0 +1,53 @@
+.ourclients {
+  min-height: 922.46px;
+  color: black;
+}
+
+.ourclients h1 {
+  font-size: 70px;
+}
+
+/* CLient card */
+/* Cilent icon */
+.ourclients svg {
+  width: 86px;
+  height: 61px;
+  color: blue;
+}
+.ourclients .card:hover {
+  box-shadow: 15px 10px 50px 0px #0000001A;
+  background-color: rgb(227, 227, 227, 0.1);
+}
+.cards {
+  background-color: #4F9CF9;
+  border-radius: 3%;
+}
+.cards .hrline {
+  width: 95%;
+  margin: auto;
+  color: white;
+}
+.ourclients .card h3 {
+  color: blue;
+}
+.ourclients .card:hover h3 {
+  color: black;
+}
+/* Slidebar */
+.containerSlidbar {
+  min-height: 300px;
+}
+.SliderOurCustomer {
+
+  width: 60px;
+  height: 12px;
+}
+.SliderOurCustomer .circle1 {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  color: #4F9CF9;
+}
+.SliderOurCustomer .circle2 {
+  color: #043873;
+}

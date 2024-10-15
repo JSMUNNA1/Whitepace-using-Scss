@@ -1,0 +1,27 @@
+.btn:hover,
+.btn:focus,
+.btn:active {
+  border: none !important;
+  color: $color-hover-btn !important;
+  box-shadow: none !important;
+}
+.btn {
+  color: white;
+}
+.LoginBtn {
+  color: black;
+}
+// Nav-buttons
+.arrrowBtn {
+  width: 227px;
+  margin-left: 12px;
+  height: 60px;
+  background-color: $bg-color-arrowbtn;
+
+}
+//main buttons For all
+.arrrowBtnForMains {
+  width: 227px;
+  height: 60px;
+  background-color: $bg-color-arrowbtn;
+}

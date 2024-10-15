@@ -1,0 +1,17 @@
+@use 'mixin' as mx;
+@use 'varables' as vs;
+.mainFirstContainer {
+  @include mx.layoutsetUp(vs.$bg-color-blue);
+  min-height: 656.39px;
+  background-image: url(./Images/MainFirst/Element.png);
+  background-size: 100% 100%;
+}
+h1 {
+   @include mx.headingTextSize(64px,700);
+}
+.leftMainFirst {
+  min-height: 370px;
+}
+.RightMain img {
+  height: 361px;
+}

@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>-----WhitePace-----</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./Images/favicon/favicon-48x48.png"
+      sizes="48x48"
+    />
+    <link rel="icon" type="image/svg+xml" href="./Images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="Images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./Images/favicon/site.webmanifest" />
+    <!-- Bootstrap icon -->
+    <!-- Option 1: Include in HTML -->
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font Family -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <!-- Custum-css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleResponsive.css" />
+  </head>
+  <body>
+    <div class="about-nav">
+      <!--NavBar  -->
+      <nav class="navbar navbar-expand-lg navbarStyle">
+        <!-- NavBar Container of items  -->
+        <div
+          class="container-fluid NavbarContainer d-flex justify-content-between"
+        >
+          <!-- first part of items of container -->
+          <!-- Logo Part  -->
+
+          <a class="navbar-brand logoOfWebsite" href="#"
+            ><img src="./Images/Logo/Logo.png" alt=""
+          /></a>
+          <!-- Responsive part ThreeMenu -->
+          <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+          <!-- Experiment Responsive part -->
+
+          <button
+            class="btn btn-primary threeMenu"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasTop"
+            aria-controls="offcanvasTop"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="offcanvas h-50 offcanvas-top"
+            tabindex="-1"
+            id="offcanvasTop"
+            aria-labelledby="offcanvasTopLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasTopLabel"></h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              >
+                <h4 class="bi bi-arrow-up-circle-fill circleCancell"></h4>
+              </button>
+            </div>
+            <div
+              class="offcanvas-body h-100 justify-content-between align-items-center w-100"
+            >
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button bg-transparent"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Products
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <code>
+                        <ul class="list-unstyled listItemsoflinks">
+                          <li><a class="nav-link" href="">Web</a></li>
+                          <li><a class="nav-link" href="#">Android</a></li>
+                          <li><a class="nav-link" href="#">Game</a></li>
+                          <li><a class="nav-link" href="#">BlockChain</a></li>
+                        </ul>
+                      </code>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Solutions
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <code>
+                        <ul class="list-unstyled listItemsoflinks">
+                          <li><a class="nav-link" href="">Web</a></li>
+                          <li><a class="nav-link" href="#">Android</a></li>
+                          <li><a class="nav-link" href="#">Game</a></li>
+                          <li><a class="nav-link" href="#">BlockChain</a></li>
+                        </ul>
+                      </code>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Resources
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <code>
+                        <ul class="list-unstyled listItemsoflinks">
+                          <li><a class="nav-link" href="">Web</a></li>
+                          <li><a class="nav-link" href="#">Android</a></li>
+                          <li><a class="nav-link" href="#">Game</a></li>
+                          <li><a class="nav-link" href="#">BlockChain</a></li>
+                        </ul>
+                      </code>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Pricing
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <code>
+                        <ul class="list-unstyled listItemsoflinks">
+                          <li><a class="nav-link" href="">Web</a></li>
+                          <li><a class="nav-link" href="#">Android</a></li>
+                          <li><a class="nav-link" href="#">Game</a></li>
+                          <li><a class="nav-link" href="#">BlockChain</a></li>
+                        </ul>
+                      </code>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="buttonsofResponsive">
+                <div
+                  class="buttonsOfNav d-flex justify-content-around w-100 mt-5"
+                >
+                  <button type="button" class="btn LoginBtn">Login</button>
+                  <button type="button" class="btn arrrowBtn">
+                    Try whitepace free<span>&#8594;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- End Experiment Responsive Part -->
+          <!-- 2-nd items of container -->
+          <div
+            class="collapse navbar-collapse justify-content-between part2Ofnav"
+            id="navbarTogglerDemo02"
+          >
+            <!-- DropDownS div containers -->
+            <div class="d-flex dropDownitems">
+              <!-- 1st dropdown -->
+              <div class="dropdown">
+                <button
+                  class="btn y dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- 2nd dropdown -->
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Solutions
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- third DropDown -->
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Fourt DropDown -->
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pricing
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- button items  -->
+            <div class="buttonsOfNav d-flex justify-content-around w-50">
+              <button type="button" class="btn LoginBtn">Login</button>
+              <button type="button" class="btn arrrowBtn">
+                Try whitepace free<span>&#8594;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- main -->
+    <!-- First part -->
+    <div
+      class="container-fluid MainFirstPart d-flex justify-content-lg-center align-items-lg-center"
+    >
+      <div
+        class="container d-flex flex-column flex-lg-row justify-content-evenly justify-content-lg-between"
+      >
+        <!-- part 1 -->
+        <div class="container">
+          <div
+            class="mainfirstLeft d-flex justify-content-center align-items-center align-items-lg-center"
+          >
+            <div
+              class="d-flex flex-column text-center text-lg-start justify-content-between"
+            >
+              <h1 class="fw-bold heding">Get More Done with whitepace</h1>
+              <p>
+                Project management software that enables your teams to
+                collaborate, plan,analyze and manage everyday tasks
+              </p>
+
+              <div
+                class="d-flex justify-content-center justify-content-lg-start"
+              >
+                <button type="button" class="btn arrrowBtn">
+                  Try whitepace free<span>&#8594;</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- part2 -->
+        <div class="container">
+          <div class="mainfirstRight"></div>
+        </div>
+      </div>
+    </div>
+    <!--Work together and Project Manager  -->
+
+    <div
+      class="container-fluid WorktogeandProjMana d-flex flex-column justify-content-center align-items-center"
+    >
+      <!--- Project Manager  -->
+      <div
+        class="w-100 ProjectManager container-fluid d-flex flex-column flex-lg-row justify-content-center"
+      >
+        <!-- Left Part -->
+        <div
+          class="LeftProjectManag d-flex flex-column align-items-center justify-content-center"
+        >
+          <div class="d-flex LeftProjectManagLeft justify-content-center">
+            <div
+              class="d-flex text-center text-lg-start flex-column justify-content-center align-items-center align-items-lg-start"
+            >
+              <div>
+                <h1 class="heding">
+                  Project
+                  <span class="borderOfManagenent">Management </span>
+                </h1>
+              </div>
+              <p>
+                Images, videos, PDFs and audio files are supported. Create math
+                expressions and <br />
+                diagrams directly from the app. Take photos with the mobile app
+                and save them <br />
+                to a note.
+              </p>
+              <button type="button" class="btn arrrowBtn">
+                Get Start<span>&#8594;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Part -->
+        <div
+          class="d-flex RightCOntaierManager align-items-center justify-content-center"
+        >
+          <div class="RightProjectManag"></div>
+        </div>
+      </div>
+      <!--Work together -->
+      <div
+        class="w-100 workTogether d-flex flex-column flex-lg-row container-fluid justify-content-between"
+      >
+        <div
+          class="classCOntainerWorktogetherLeft d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="d-flex justify-content-center workTogetherLeft align-items-center"
+          >
+            <img
+              class="img-fluid image"
+              src="./Images/ProjectManagemntAndWorkTogether/Work Together Image.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div
+          class="RightOfWorkTogether d-flex align-items-center justify-content-center"
+        >
+          <div
+            class="d-flex flex-column text-center text-lg-start RightOfWorkTogetherChild justify-content-between align-items-center align-items-lg-start"
+          >
+            <h1 class="">
+              Work <span class="borderOfManagenent"> together</span>
+            </h1>
+
+            <p>
+              With whitepace, share your notes with your colleagues and
+              collaborate on them.<br />
+              You can also publish a note to the internet and share the URL with
+              others.
+            </p>
+            <button type="button" class="btn arrrowBtn">
+              Try it Now<span>&#8594;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Use as Extension -->
+    <div
+      class="UseExtension d-flex flex-column flex-lg-row container-fluid align-items-center justify-content-evenly"
+    >
+      <div
+        class="ContaintOfExtension d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="d-flex flex-column text-center text-lg-start Extentsion align-items-center justify-content-center align-items-lg-start justify-content-lg-between"
+        >
+          <h1 class="">
+            Use as <span class="borderOfManagenent">Extension</span>
+          </h1>
+
+          <p>
+            Use the web clipper extension, available on Chrome and Firefox, to
+            save web pages or take screenshots as notes.
+          </p>
+          <button type="button" class="btn arrrowBtn">
+            Let`s Go<span>&#8594;</span>
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="rightSideExtensionContainer d-flex justify-content-center align-items-center"
+      >
+        <div class="rightSideExtension"></div>
+      </div>
+    </div>
+    <!-- Customise it
+                  to your needs -->
+    <div
+      class="Customise d-flex container-fluid flex-column flex-lg-row justify-content-evenly align-items-center justify-content-lg-center align-items-lg-center"
+    >
+      <div
+        class="leftSideCustomiseContainert d-flex justify-content-center align-items-center"
+      >
+        <div class="leftSideCustomise"></div>
+      </div>
+      <div
+        class="ContaintOfCustomise container-fluid rightSideCustomise align-items-center justify-content-lg-center justify-content-end"
+      >
+        <div
+          class="d-flex mt-3 flex-column text-center text-lg-start align-items-center align-items-lg-start justify-content-between"
+        >
+          <h1 class="">
+            Customise it to <br />
+            <span class="borderOfManagenent"> your needs</span>
+          </h1>
+
+          <p>
+            Customise the app with plugins, custom themes and multiple text
+            editors (Rich Text or Markdown). Or create your own scripts and
+            plugins using the Extension API.
+          </p>
+          <button type="button" class="btn arrrowBtn">
+            Let`s GO<span>&#8594;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Choose Your Plan -->
+    <div class="container-fluid choosePlan">
+      <!-- heading-box -->
+      <div
+        class="d-flex justify-content-center text-center h-30 flex-lg-column flex-column align-items-center"
+      >
+        <h1 class="">
+          Choose <span class="borderOfManagenent">Your Plan</span>
+        </h1>
+        <p>
+          Whether you want to get organized, keep your personal life on track,
+          or boost workplace productivity, Evernote has the right plan for you.
+        </p>
+      </div>
+      <!-- Card Box -->
+      <div
+        class="plainCrdContainer mt-5 row g-4 d-flex justify-content-center align-items-center container-fluid"
+      >
+        <div class="card col-lg-3 me-3 card1">
+          <!--  1St Card -->
+          <div class="card-body d-flex justify-content-evenly flex-column">
+            <!-- 1St Card-title -->
+            <div
+              class="card-title d-flex flex-column justify-content-between h-25"
+            >
+              <h5>Free</h5>
+              <h3>$0</h3>
+              <p>Capture ideas and find them quickly</p>
+            </div>
+            <!-- 1st Card Text -->
+            <div
+              class="card-text d-flex flex-column h-50 justify-content-around"
+            >
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">Sync unlimited devices</span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">10 GB monthly uploads </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">200 MB max. note size </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Customize Home dashboard and access extra widgets</span
+                >
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Connect primary Google Calendar account
+                </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Add due dates, reminders, and notifications to your
+                  <span class="ps-4 ms-3">tasks</span>
+                </span>
+              </div>
+            </div>
+            <!-- 1St Card-button -->
+            <a href="#" class="btn btn-outline-warning cardBtn h-25"
+              >Get Stared</a
+            >
+          </div>
+        </div>
+        <!-- 2nd Card -->
+        <div
+          class="card d-flex justify-content-center align-items-center col-lg-3 card2"
+        >
+          <!--  2St Card -->
+          <div class="card-body d-flex justify-content-evenly flex-column">
+            <!-- 2St Card-title -->
+            <div
+              class="card-title d-flex flex-column justify-content-between h-25"
+            >
+              <h5>Personal</h5>
+              <h3>$11.99</h3>
+              <p>Keep home and family on track</p>
+            </div>
+            <!-- 2st Card Text -->
+            <div
+              class="card-text d-flex flex-column h-50 justify-content-around"
+            >
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">Sync unlimited devices</span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">10 GB monthly uploads </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">200 MB max. note size </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Customize Home dashboard and access extra widgets</span
+                >
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Connect primary Google Calendar account
+                </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Add due dates, reminders, and notifications to your
+                  <span class="ps-4 ms-3">tasks</span>
+                </span>
+              </div>
+            </div>
+            <!-- 2St Card-button -->
+            <a href="#" class="btn btn-outline-warning cardBtn h-25"
+              >Get Stared</a
+            >
+          </div>
+        </div>
+        <!-- 3rd Card -->
+        <div class="card col-lg-3 ms-3 card3">
+          <!--  3St Card -->
+          <div class="card-body d-flex justify-content-evenly flex-column">
+            <!-- 3St Card-title -->
+            <div
+              class="card-title d-flex flex-column justify-content-between h-25"
+            >
+              <h5>Organization</h5>
+              <h3>$49.99</h3>
+              <p>Capture ideas and find them quickly</p>
+            </div>
+            <!-- 3st Card Text -->
+            <div
+              class="card-text d-flex flex-column h-50 justify-content-around"
+            >
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">Sync unlimited devices</span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">10 GB monthly uploads </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2">200 MB max. note size </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Customize Home dashboard and access extra widgets</span
+                >
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Connect primary Google Calendar account
+                </span>
+              </div>
+              <div class="">
+                <!-- <img src="./Images/Cards/IconBlsck.png" alt="" /> -->
+                <h3 class="d-inline-block">
+                  <i class="bi bi-check2-circle"></i>
+                </h3>
+                <span class="ps-2"
+                  >Add due dates, reminders, and notifications to your
+                  <span class="ps-4 ms-3">tasks</span>
+                </span>
+              </div>
+            </div>
+            <!-- 3St Card-button -->
+            <a href="#" class="btn btn-outline-warning cardBtn h-25"
+              >Get Stared</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your work, everywhere you are -->
+    <div
+      class="container-fluid workEvery d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="d-flex justify-content-evenly align-items-center flex-column text-center w-75"
+      >
+        <h1>
+          Your work, everywhere
+          <span class="borderOfManagenentBlue">you are</span>
+        </h1>
+        <p>
+          Access your notes from your computer, phone or tablet by synchronising
+          with various services, including whitepace, Dropbox and OneDrive. The
+          app is available on Windows, macOS, Linux, Android and iOS. A terminal
+          app is also available!
+        </p>
+      </div>
+      <div class="">
+        <button type="button" class="btn arrrowBtn">
+          Try Tasky<span>&#8594;</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- !00% container -->
+    <div class="container-fluid work100 d-flex align-items-center">
+      <div
+        class="container-fluid d-flex innerWork100 flex-column justify-content-evenly align-items-center flex-lg-row"
+      >
+        <!-- left part -->
+        <div
+          class="d-flex leftPart100 text-center text-lg-start align-items-center align-items-lg-start flex-column justify-content-evenly"
+        >
+          <div class="leftWork">
+            <h1>100% <span class="borderOfManagenent">your data</span></h1>
+            <p>
+              The app is open source and your notes are saved to an open format,
+              so you'll always have access to them. Uses End-To-End Encryption
+              (E2EE) to secure your notes and ensure no-one but yourself can
+              access them.
+            </p>
+          </div>
+
+          <button type="button" class="btn arrrowBtn">
+            Read More<span>&#8594;</span>
+          </button>
+        </div>
+
+        <!-- right part -->
+        <div
+          class="rightof100 d-flex justify-content-center align-items-center"
+        >
+          <img src="./Images/Data/Element.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Our spouser -->
+    <div
+      class="container-fluid ourSponser d-flex justify-content-center flex-column"
+    >
+      <div
+        class="d-flex justify-content-center w-100 text-center align-items-center"
+      >
+        <h1 class="pb-5">
+          Our <span class="borderOfManagenent">sponsors</span>
+        </h1>
+      </div>
+      <!-- company imGES -->
+      <div
+        class="d-flex justify-content-around ourSponserContainer align-items-center flex-column flex-lg-row pt-5"
+      >
+        <!-- Apple -->
+        <div>
+          <img src="./Images/OurSpousers/Apple.png" alt="" />
+        </div>
+        <!-- microsoft -->
+        <div>
+          <img src="./Images/OurSpousers/microsoft 1.png" alt="" />
+        </div>
+        <!-- slices -->
+        <div>
+          <img src="./Images/OurSpousers/Slack.png" alt="" />
+        </div>
+        <!-- Google -->
+        <div>
+          <img src="./Images/OurSpousers/Google.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Using whitepace -->
+    <div
+      class="container-fluid usingWhite d-flex flex-column flex-lg-row align-items-center justify-content-evenly"
+    >
+      <div class="usingWhiteLeft">
+        <!-- LeftSide -->
+        <div class="d-flex justify-content-center">
+          <img
+            src="Images/WorkWithYourFaviorApp/Apps.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="rideApp d-flex text-center flex-column text-lg-start align-items-center align-items-lg-start justify-content-between"
+      >
+        <!-- Text -->
+        <div class="d-flex flex-column justify-content-between">
+          <h1>Work with Your Favorite Apps Using whitepace</h1>
+        </div>
+        <p>
+          Whitepace teams up with your favorite software. Integrate with over
+          1000+ apps with Zapier to have all the tools you need for your project
+          success.
+        </p>
+        <button type="button" class="btn arrrowBtn">
+          Read More<span>&#8594;</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- What say Our Clients -->
+    <div
+      class="container-fluid OurClients d-flex flex-column justify-content-evenly"
+    >
+      <div
+        class="headingOfClient text-center d-flex pt-5 mt-5 justify-content-center"
+      >
+        <h1>What Our Clien<span class="borderOfManagenent">ts Says</span></h1>
+      </div>
+      <div class="cardcontainerClients">
+        <div class="d-flex justify-content-evenly">
+          <!-- card 1 -->
+          <div class="card Clientcard1 col-lg-4">
+            <div class="ps-3 pt-3 upperPartOfClinet">
+              <!-- <img src="./Images/Client/Group.png" alt="" /> -->
+              <!-- Double Quetos -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-quote"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                />
+              </svg>
+              <!-- End Double Quetos -->
+              <p class="pt-5 PDesign">
+                Whitepate is designed as a collaboration tool <br />
+                for businesses that is a full project <br />
+                management solution.
+              </p>
+            </div>
+
+            <div class="d-flex justify-content-center"><hr /></div>
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div class="pe-3">
+                <img src="./Images/Client/Avater.png" alt="" />
+              </div>
+
+              <div class="ps-3">
+                <h3 class="card-title">Oberon Shaw, MCH</h3>
+                <p class="card-text">
+                  Head of Talent Acquisition, North America
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card Clinentcard2 col-lg-4 ps-3 pt-3">
+            <div class="">
+              <!-- <img src="./Images/Client/Group.png" alt="" /> -->
+              <!-- Double Quetos -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-quote"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                />
+              </svg>
+              <!-- End Double Quetos -->
+
+              <p class="pt-5">
+                Whitepate is designed as a collaboration tool <br />
+                for businesses that is a full project <br />
+                management solution.
+              </p>
+            </div>
+
+            <div class="d-flex justify-content-center"><hr /></div>
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div class="pe-3">
+                <img src="./Images/Client/Avtarsecond/Avater.png" alt="" />
+              </div>
+
+              <div class="ps-3">
+                <h3 class="card-title">Oberon Shaw, MCH</h3>
+                <p class="card-text">
+                  Head of Talent Acquisition, North America
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card Clientcard3 col-lg-4 ps-3 pt-3">
+            <div class="">
+              <!-- <img src="./Images/Client/Group.png" alt="" /> -->
+              <!-- Double Quetos -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-quote"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                />
+              </svg>
+              <!-- End Double Quetos -->
+              <p class="pt-5">
+                Whitepate is designed as a collaboration tool <br />
+                for businesses that is a full project <br />
+                management solution.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center"><hr /></div>
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div class="pe-3">
+                <img src="./Images/Client/Avarthird/Avater.png" alt="" />
+              </div>
+
+              <div class="ps-3">
+                <h3 class="card-title">Oberon Shaw, MCH</h3>
+                <p class="card-text">
+                  Head of Talent Acquisition, North America
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="SliderOurCustomer">
+          <i class="bi bi-circle-fill circle1 circle11"></i>
+          <i class="bi bi-circle-fill circle1 circle2"></i>
+          <i class="bi bi-circle-fill circle1 circle3"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Try Whitepace today -->
+    <div
+      class="container-fluid tryWhitepace d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="itemsoftoday flex-column text-center d-flex text-center justify-content-between align-items-center"
+      >
+        <h1>Try Whitepace today</h1>
+        <div>
+          <p>Get started for free.</p>
+          <p>Add your whole team as your needs grow.</p>
+        </div>
+        <button type="button" class="btn arrrowBtn">
+          Try Tasky Free<span>&#8594;</span>
+        </button>
+        <p>On a big team? Contact sales</p>
+        <div class="ContainerIconTry">
+          <!-- <a href="" class="m-2"
+            ><img src="./Images//firstuse/apple-black-logo 2.png" alt="" />
+          </a> -->
+          <!-- Apple -->
+          <a href="" class="m-2">
+            <!-- <img src="./Images//firstuse/apple-black-logo 2.png" alt=""
+          /> -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              fill="currentColor"
+              class="bi bi-apple"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+              />
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+              />
+            </svg>
+          </a>
+          <!-- windows -->
+          <a href="" class="m-2">
+            <!-- <img src="./Images//firstuse/windows-logo 1.png" alt=""
+          /> -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              fill="currentColor"
+              class="bi bi-windows"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"
+              />
+            </svg>
+          </a>
+          <!-- Android -->
+          <a href="" class="m-2">
+            <!-- <img src="./Images//firstuse/android-logo 1.png" alt="" /> -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="60"
+              fill="currentColor"
+              class="bi bi-android2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m10.213 1.471.691-1.26q.069-.124-.048-.192-.128-.057-.195.058l-.7 1.27A4.8 4.8 0 0 0 8.005.941q-1.032 0-1.956.404l-.7-1.27Q5.281-.037 5.154.02q-.117.069-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.7 3.7 0 0 0 3.5 5.02h9q0-1.125-.623-2.072a4.27 4.27 0 0 0-1.664-1.476ZM6.22 3.303a.37.37 0 0 1-.267.11.35.35 0 0 1-.263-.11.37.37 0 0 1-.107-.264.37.37 0 0 1 .107-.265.35.35 0 0 1 .263-.11q.155 0 .267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264m4.101 0a.35.35 0 0 1-.262.11.37.37 0 0 1-.268-.11.36.36 0 0 1-.112-.264q0-.154.112-.265a.37.37 0 0 1 .268-.11q.155 0 .262.11a.37.37 0 0 1 .107.265q0 .153-.107.264M3.5 11.77q0 .441.311.75.311.306.76.307h.758l.01 2.182q0 .414.292.703a.96.96 0 0 0 .7.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182q0 .414.292.703a.97.97 0 0 0 .71.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76q.436 0 .749-.308.31-.307.311-.75V5.365h-9zm10.495-6.587a.98.98 0 0 0-.702.278.9.9 0 0 0-.293.685v4.063q0 .406.293.69a.97.97 0 0 0 .702.284q.42 0 .712-.284a.92.92 0 0 0 .293-.69V6.146a.9.9 0 0 0-.293-.685 1 1 0 0 0-.712-.278m-12.702.283a1 1 0 0 1 .712-.283q.41 0 .702.283a.9.9 0 0 1 .293.68v4.063a.93.93 0 0 1-.288.69.97.97 0 0 1-.707.284 1 1 0 0 1-.712-.284.92.92 0 0 1-.293-.69V6.146q0-.396.293-.68"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="container-fluid Footer">
+      <div
+        class="itemsOfFooter d-flex flex-column text-center text-lg-start flex-lg-row align-items-center align-items-lg-start justify-content-around"
+      >
+        <div class="logoFooter">
+          <a href="#"> <img src="Images/Footer/Logo.png" alt="" /></a>
+          <p class="pt-3">
+            whitepace was created for the new ways we live and work. We make a
+            better workspace around the world.
+          </p>
+        </div>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <b
+                ><a class="nav-link active" aria-current="page" href="#"
+                  >Product</a
+                ></b
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customer Stories</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <b
+                ><a class="nav-link active" aria-current="page" href="#"
+                  >Resources</a
+                ></b
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guides & Tutorials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help Center</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <b
+                ><a class="nav-link active" aria-current="page" href="#"
+                  >Company</a
+                ></b
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Media kit</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column justify-content-between">
+          <h1 class="fw-bolder">Try It Today</h1>
+          <p>
+            Get started for free. Add your <br />
+            whole team as your needs grow.
+          </p>
+          <button type="button" class="btn arrrowBtn">
+            Start Today<span>&#8594;</span>
+          </button>
+        </div>
+      </div>
+      <hr class="FonterLine" />
+      <!-- End Part -->
+      <div
+        class="Endpart d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-between"
+      >
+        <!-- Right side End part -->
+        <div class="d-flex flex-column flex-lg-row justify-content-between">
+          <!-- DropDown -->
+          <div class="dropdown">
+            <button
+              class="btn y dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <p><img src="Images/Footer/Language.png" alt="" /></p>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+
+          <a class="nav-link active" aria-current="page" href="#"
+            >Term & Privacy</a
+          >
+          <a class="nav-link" href="#">Security</a>
+          <a class="nav-link" href="#">Status</a>
+          <a class="nav-link" href="#">©2021 Whitepace LLC.</a>
+        </div>
+        <div class="d-flex justify-content-around">
+          <a href="" class="m-3">
+            <i class="bi bi-facebook iconEffects"></i>
+            <!-- <img src="./Images/Footer/_x30_1._Facebook.png" alt=""
+          /> -->
+          </a>
+          <a href="" class="m-3"
+            ><i class="bi bi-twitter iconEffects"></i>
+            <!-- <img src="./Images/Footer/Twitter.png" alt=""
+          /> -->
+          </a>
+          <a href="" class="m-3">
+            <!-- <img src="./Images/Footer/Linkedin.png" alt="" /> -->
+
+            <i class="bi bi-linkedin iconEffects"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+@mixin headingTextSize($font-size,$font-weight){
+       font-size: $font-size;
+       font-weight: $font-weight;
+}
+@mixin fexlayoutwithoutdirection($justify-content:start,$align-items:start){
+     display: flex;
+     justify-content:$justify-content;
+     align-items: $align-items;  
+}
+@mixin fexboxlayout($flex-direction:row,$justify-content:start,$align-items:start){
+       display: flex;
+       justify-content:$justify-content;
+       align-items: $align-items;
+       flex-direction: $flex-direction;
+}
+@mixin layoutsetUp($bg-color){
+     background-color: $bg-color;
+     @if $bg-color==white{
+          color: black;
+     }@else{
+         color: white;    
+     }
+}

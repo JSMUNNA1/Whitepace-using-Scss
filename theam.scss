@@ -1,0 +1,41 @@
+@import 'varables';
+@import 'button';
+@import 'mixin';
+@import 'extend';
+@import 'navbar';
+@import 'main';
+@import 'projectManager';
+@import 'extension';
+@import 'customise';
+@import 'choosePlain';
+@import 'workEvery';
+@import 'data';
+@import 'supocers';
+@import 'workwithfavapp';
+@import 'clientreview';
+@import 'trywhite';
+@import 'footer';
+@import 'responsive';
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+
+}
+.card{
+    cursor: pointer;
+}
+.borderOfManagenent {
+  border-image-source: url(./Images/ProjectManagemntAndWorkTogether/Vector.png);
+  border-image-slice: 100;
+  border-image-width: 0px 0px 20px 2px;
+}
+
+.borderOfManagenentBlue {
+  border-image-source: url(./Images/BlueColorImgBorder/Vector.png);
+  border-image-slice: 100;
+  border-image-width: 0px 0px 15px 2px;
+
+}

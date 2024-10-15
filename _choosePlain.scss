@@ -1,0 +1,96 @@
+// * choosePlanContainer */
+
+@use 'mixin' as mx;
+@import 'extend';
+.choosePlanContainer {
+  min-height: 1272px;
+  color: black;
+}
+.choosePlanContainer h1 {
+ @include mx.headingTextSize(72px,700);
+}
+.hedingofPlain {
+  min-height: 171px;
+}
+.cardMainOfPlain {
+  min-height: 761px;
+}
+/* css Choose Card Previous */
+.choosePlan .card {
+  min-height: 654px;
+}
+.choosePlan .card:hover {
+  cursor: pointer;
+}
+.choosePlan .card-title h5 {
+  @include mx.headingTextSize(24px,600);
+ 
+}
+.choosePlan .card-title h3 {
+  @include mx.headingTextSize(36px,700);
+  
+}
+.choosePlan .card-title p {
+  font-weight: 500;
+}
+.choosePlan .btn-outline-warning {
+  color: black;
+}
+.card {
+  border: none;
+}
+.cardBtn {
+  width: 166px;
+  padding-top: 15px;
+  min-height: 51px;
+}
+.card1 {
+  border: 1px solid orange;
+}
+.card2 {
+    @extend .card1;
+
+}
+.card3 {
+  @extend .card1;
+}
+/* Effects of card System */
+.choosePlan .card2 {
+  @include mx.layoutsetUp(white);
+ 
+
+}
+.choosePlan .card2:hover h3 {
+  @extend .choosePlan-hover-onh3;
+}
+
+.choosePlan .card2:hover {
+  @extend .choosePlan-hover-effects-onbody ; 
+}
+
+.card1:hover {
+    @extend .choosePlan-hover-effects-onbody ; 
+}
+
+.card1:hover h3 {
+     @extend .choosePlan-hover-onh3;
+}
+
+.card1:hover .btn-outline-warning {
+  @extend .choosePlain-hover-effects-btn-outline-warning;
+}
+
+.card3:hover .btn-outline-warning {
+  @extend .choosePlain-hover-effects-btn-outline-warning;
+}
+
+.card2:hover .btn-outline-warning {
+      @extend .choosePlain-hover-effects-btn-outline-warning;
+}
+.card3:hover {
+  @extend .choosePlan-hover-effects-onbody ; 
+}
+
+.card3:hover h3 {
+  @extend .choosePlan-hover-onh3;
+}
